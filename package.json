@@ -1,0 +1,30 @@
+{
+  "name": "dev-tinder-backend",
+  "version": "1.0.0",
+  "description": "DevTinder a tinder like pltform for developers and tech people",
+  "keywords": [
+    "NodeJS",
+    "JavaScript",
+    "ExpressJS"
+  ],
+  "homepage": "https://github.com/manu-hn/Namaste-NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/manu-hn/Namaste-NodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manu-hn/Namaste-NodeJS.git"
+  },
+  "license": "ISC",
+  "author": "Manu H N",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+
+    "start": "node src/index.js",
+    "dev" : "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
